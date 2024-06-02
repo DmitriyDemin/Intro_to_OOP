@@ -9,8 +9,4 @@ public class WaterVendingMachine extends VendingMachine {
     public WaterVendingMachine(List<Product> products) {
         super(products);
     }
-
-    public WaterVendingMachine() {
-    }
-
 }
