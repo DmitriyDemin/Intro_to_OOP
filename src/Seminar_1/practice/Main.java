@@ -17,9 +17,7 @@ package Seminar_1.practice;
 import Seminar_1.practice.impl.BottleOfWater;
 import Seminar_1.practice.impl.HotDrink;
 import Seminar_1.practice.impl.HotDrinksVendingMachine;
-import Seminar_1.practice.impl.Package;
 
-import java.awt.print.Paper;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -40,6 +38,8 @@ public class Main {
         hvm.addProducts(List.of(hotDrink_1,hotDrink_1,hotDrink_2,hotDrink_3));
 
         System.out.println(hvm.getProduct("COFFEE", 0.25F, 75));
+
+        System.out.println(hvm.getProducts());
 
 
 

@@ -1,5 +1,6 @@
 package Seminar_2.practice2.impl;
 
+
 public interface QueueBehaviour {
 
     void takeInQueue(Actor actor);
@@ -7,3 +8,5 @@ public interface QueueBehaviour {
     void giveOrders(); // забрать заказ
     void releaseFromQueue(); //выйти из очереди
 }
+
+

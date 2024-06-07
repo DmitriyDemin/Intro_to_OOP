@@ -4,21 +4,9 @@ import java.util.List;
 
 public interface MarketBehaviour {
 
-    /**
-     *
-     * абстактный метод позволяющий судить о том, что покупатель вошел в магазин
-     */
-    void acceptToMarket(Actor actor);//входит в магазин
+    void acceptToMarket(Actor actor);//абстактный метод позволяющий судить о том, что покупатель вошел в магазин
 
-    /**
-     *
-     * абстактный метод позволяющий судить о том, что покупатель вышел из магазина
-     */
-    void releaseFromMarket (List<Actor> actors); //выходит из магазина
+    void releaseFromMarket (List<Actor> actors); //абстактный метод позволяющий судить о том, что покупатель вышел из магазина
 
-    /**
-     *
-     */
-    void updates(); //обновление состяния
-
+    void updates(List<Actor> actors, List<Product2> products); //обновление состяния, размер очереди, количество оставшейся продукции, скорее всего будет принимать список продуктов
 }

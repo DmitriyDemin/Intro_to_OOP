@@ -3,6 +3,7 @@ package Seminar_2.practice2;
 import Seminar_2.practice2.impl.Actor;
 
 public class Human extends Actor {
+
     public Human(String name) {
         super(name);
     }
@@ -11,14 +12,15 @@ public class Human extends Actor {
     public String getName() {
         return name;
     }
+
     @Override
-    public void setMakeOrder(boolean fag) {
-        this.isMakeOrder = fag;
+    public void setMakeOrder(boolean flag) {
+        this.isMakeOrder = flag;
 
     }
     @Override
-    public void setTakeOrder(boolean fag) {
-        this.isTakeOrder = fag;
+    public void setTakeOrder(boolean flag) {
+        this.isTakeOrder = flag;
 
     }
     @Override
