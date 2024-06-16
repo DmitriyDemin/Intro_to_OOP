@@ -7,10 +7,10 @@
 
 package Seminar_3;
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 public class Student implements Comparable<Student> {
+
     public String firstName;
     public String lastName;
     public int id;
