@@ -13,13 +13,5 @@ public class User{
     }
 
 
-    public static class Main{
-        public static void main(String[] args){
-            User user = new User("Bob");
-            Reporter reporter = new Reporter();
-            Persister persister = new Persister();
-            reporter.report(user);
-            persister.save(user);
-        }
-    }
+
 }
